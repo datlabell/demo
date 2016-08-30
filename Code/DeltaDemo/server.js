@@ -6,8 +6,8 @@ var app = express();
 app.use(express.static(path.join(__dirname, 'Files')));
 
 //Default path should send index.html
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'Files/index.html'));
+app.get('*', function (req, res) {
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 //Start listening

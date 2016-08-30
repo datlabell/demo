@@ -1,0 +1,13 @@
+.navbar {
+    height: 70px;
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+
+.navbar-brand, .navbar-nav {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.navbar-nav > li > a > span {
+    color: #ef6c00;
+}

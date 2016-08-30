@@ -1,0 +1,30 @@
+{
+  "name": "delta-project",
+  "version": "0.1.0",
+  "description": "Demo app for delta project",
+  "main": "./DeltaDemo/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./DeltaDemo/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datlabell/demo.git"
+  },
+  "author": "Asaf Ben David",
+  "dependencies": {
+    "express": "4.14.0",
+    "jquery": "3.1.0",
+    "react": "15.3.1",
+    "react-addons-pure-render-mixin": "15.3.1",
+    "react-dom": "15.3.1",
+    "react-router": "2.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.14.0",
+    "babel-loader": "6.2.5",
+    "babel-preset-react": "6.11.1",
+    "css-loader": "0.24.0",
+    "webpack": "1.13.2"
+  }
+}

@@ -1,4 +1,5 @@
 var React = require('react');
+
 var ReactBootstrap = require('react-bootstrap');
 var BSNavbar = ReactBootstrap.Navbar;
 var BSNav = ReactBootstrap.Nav;
@@ -10,11 +11,11 @@ var Navbar = React.createClass( {
       <BSNavbar>
         <BSNavbar.Header>
             <BSNavbar.Brand>
-                <a href="#">Delta Project</a>
+                <a href="/home" id="delta-brand-color">Delta Project</a>
             </BSNavbar.Brand>
         </BSNavbar.Header>
         <BSNav pullRight>
-            <BSNavItem eventKey={1}>
+            <BSNavItem eventKey={1} href="/home">
                 <span>דירות למכירה</span>
             </BSNavItem>
         </BSNav>

@@ -1,6 +1,6 @@
 var React = require('react');
 
-var SearchPage = React.createClass( {
+var SearchLayout = React.createClass( {
   render: function() {
     return (
       <div>
@@ -10,4 +10,4 @@ var SearchPage = React.createClass( {
   }
 });
 
-module.exports = SearchPage;
+module.exports = SearchLayout;

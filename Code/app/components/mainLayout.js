@@ -1,7 +1,7 @@
 var React = require('react');
-var Navbar = require('./Navigation/navbar');
+var Navbar = require('./navigation/navbar');
 
-var MapPage = React.createClass( {
+var MainLayout = React.createClass( {
   render: function() {
     return (
       <div>
@@ -12,4 +12,4 @@ var MapPage = React.createClass( {
   }
 });
 
-module.exports = MapPage;
+module.exports = MainLayout;

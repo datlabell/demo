@@ -31,6 +31,10 @@ module.exports = {
       {
         test: /\.(otf|eot|svg|ttf|woff)/,
         loader: 'url-loader?limit=8192'
+      }, 
+      { 
+        test: /\.jpg$/, 
+        loader: "file-loader" 
       }
     ]
   }

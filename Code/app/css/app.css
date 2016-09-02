@@ -1,13 +1,83 @@
 .navbar {
     height: 70px;
     box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+    margin-bottom: 0;
 }
 
 .navbar-brand, .navbar-nav {
     margin-top: 5px;
     font-size: 22px;
 }
+#delta-brand-color {
+    color: #0f9d58;
+}
 
 .navbar-nav > li > a > span {
     color: #ef6c00;
 }
+
+.container-rtl {
+    direction: rtl;
+}
+
+.apt-headline {
+    padding-top: 20px;
+    padding-right: 148px;
+    padding-left: 100px;
+    min-height: 80px;
+    background-color: #eee;
+    box-shadow: 0 0 4px rgba(66,139,202,.14),0 4px 8px rgba(66,139,202,.28);
+}
+
+.apt-section > .row {
+    font-size: 14px;
+}
+
+.apt-detail-key {
+    font-weight: bold;
+}
+
+.apt-detail-emphasize {
+    color: #4285f4;
+    font-size: 20px;
+}
+
+.apt-content {
+    padding-top: 20px;
+}
+
+.sidebar {
+    padding-bottom: 50px;
+     padding-left: 10px;
+    font-size: 18px;
+    border-width: 0;
+    border-style: solid;
+    border-left-width: 1px;
+    border-left-color: #d6e9c6;
+}
+
+.sidebar > ul > li {
+    padding-bottom: 15px;
+}
+.sidebar-section-title {
+    color: #337ab7;
+    font-size: 20px;
+}
+
+.sidebar-section-links {
+    list-style: none;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+.sidebar-section-link > a {
+    color: #777;
+}
+
+.sidebar-section-link > a:hover,  .sidebar-section-link > a:active{
+    font-weight: bold;
+    color: #777;
+    text-decoration: none; 
+}
+

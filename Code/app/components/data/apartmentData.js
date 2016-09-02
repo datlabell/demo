@@ -5,7 +5,7 @@ var RightSection = [
   },
     {
     key : "ישוב",
-    value : "ירושלים"
+    value : "תל אביב"
   },
   {
     key : "רחוב",

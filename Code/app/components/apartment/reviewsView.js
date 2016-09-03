@@ -11,3 +11,5 @@ var ReviewsView = React.createClass( {
 });
 
 module.exports = ReviewsView;
+
+//TODO: Add review components

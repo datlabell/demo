@@ -11,3 +11,5 @@ var BuildingDocView = React.createClass( {
 });
 
 module.exports = BuildingDocView;
+
+//TODO: Add pdf viewer with the relevant file

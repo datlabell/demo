@@ -11,3 +11,5 @@ var OwnerNotesView = React.createClass( {
 });
 
 module.exports = OwnerNotesView;
+
+// TODO: מידע מבעל הנכס

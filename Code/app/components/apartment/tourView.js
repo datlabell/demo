@@ -11,3 +11,5 @@ var TourView = React.createClass( {
 });
 
 module.exports = TourView;
+
+// add jpeg to the view. url should be in the apt data

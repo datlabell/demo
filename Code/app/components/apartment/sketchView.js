@@ -11,3 +11,5 @@ var SketchView = React.createClass( {
 });
 
 module.exports = SketchView;
+
+//TODO: Add image view
